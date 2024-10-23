@@ -1,6 +1,6 @@
 # ```RAG (Retrieval-Augmented Generation) for the PDF documents```
 
-# Design
+# Project Outline
     # Data Ingestion:
         -Sourcing document: We will be importing PDF document using streamlit application file uploader.
         -pyPDF library we will use to extract the pdf document into the single string like format.
@@ -16,16 +16,5 @@
         -Finally, will deploy above code by creating a user interface with the help of streamlit web service.
         -It will have user  
 
-Pre requisites:
-    Libraries:
-        pyPDF2
-        langchain
-        langchain_Genai
-        faiis-cpu
-        python_dotenv
-        google-generativeai
-        streamlit
-# Development
-    
 
-# Deployment
+# User must upload PDF, mostly text upto 200mb. Submit
